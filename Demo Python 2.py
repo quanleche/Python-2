@@ -1,3 +1,4 @@
+server=app.server
 import pandas as pd
 gdp = pd.read_csv("D:\Foundation Year\Business IT 1\Datasets R\Group 4 - Dataset.csv")
 from matplotlib import pyplot as plt
