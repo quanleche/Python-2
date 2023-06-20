@@ -2,7 +2,7 @@ from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 
 app = Dash(__name__)
-
+server=app.server
 
 app.layout = html.Div([
     html.H4('Life expentancy progression of countries per continents'),
