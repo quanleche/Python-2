@@ -13,8 +13,8 @@ import numpy as np
 import dash_mantine_components as dmc
 import geopandas as gpd
 
-gdp = pd.read_csv("D:\Foundation Year\Business IT 2\GDP Dataset.csv")
-countryfile = "D:/Foundation Year/Business IT 2/shapefile/ne_110m_admin_0_countries.shp"
+gdp = pd.read_csv("GDP Dataset.csv")
+countryfile = "ne_110m_admin_0_countries.shp"
 gdf = gpd.read_file(countryfile)[['ADMIN', 'ADM0_A3']]
 gdf.columns = ['Country', 'Country Code']
 
