@@ -868,7 +868,7 @@ def update_boxplot1(selected_countries):
         color='navy'
     ),
     xaxis=dict(
-        title='<b>Continent</b>',
+        title='<b>Continents</b>',
         titlefont_size=20,
         tickfont_size=12,
         color='navy'
@@ -897,7 +897,7 @@ def update_boxplot2(selected_countries):
         color='navy'
     ),
     xaxis=dict(
-        title='<b>Continent</b>',
+        title='<b>Continents</b>',
         titlefont_size=20,
         tickfont_size=12,
         color='navy'
